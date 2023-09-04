@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Contatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="section">
+        <div class="notification" id="notification">Contato cadastrado</div>
+        <div id="container">
+            <h1>Gerenciador de Contatos</h1>
+            <div id="formulario">
+                <div id="formluario-deseja">
+                    <button id="adicionarNovoContato">Adicionar novo contato</button>
+                </div>
+                <div id="formulario-adicionar">
+                    <input type="text" id="nome" placeholder="Nome">
+                    <input type="text" id="telefone" placeholder="Telefone">
+                    <input type="email" id="email" placeholder="Email">
+                    <button id="adicionarContato">Cadastrar</button>
+                </div>
+            </div>
+            <input type="text" id="pesquisar" placeholder="Pesquisar por nome (Pressione Enter para pesquisar)">
+            <ul id="listaContatos"></ul>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
